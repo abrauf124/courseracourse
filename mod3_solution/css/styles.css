@@ -5,7 +5,7 @@
 body {
   font-size: 16px;
   color: rgb(22, 22, 22);
-  background-color: #9bd4b8;
+  background-color: #7dcec3;
   font-family: Helvetica, sans-serif;
 }
   /*header*/
@@ -60,7 +60,7 @@ h2 {
 }
 p {
   border: 1px solid black;
-  background-color: lavender;
+  background-color: black;
   width: auto;
   height:auto;
   margin-right:20px;
@@ -68,7 +68,7 @@ p {
   margin-bottom:30px;
   margin-top:0px;
   font-family: Helvetica;
-  color: rgb(10, 10, 10);
+  color: #e23011f1;
   text-align: center;
   padding: 20px;
   padding-top:40px;
@@ -76,9 +76,11 @@ p {
   position: relative;
   }
 #items span{
-  width:80px;
+  width:100px;
   height:30px;
   border-left: 1px solid black;
+  background-color:crimson;
+  color: #0f0f0f;
   text-align: center;
   padding: 2px;
   margin: 0px;
@@ -90,15 +92,7 @@ p {
   font-size: large;
   padding-top:3px;
   }
-#s1{
-  background-color:crimson;
-  }
-#s2{
-  background-color: blueviolet;
-  }
-#s3{
-  background-color: teal;
-  }
+
 .row {
     width: 100%;
     margin-right:auto;
